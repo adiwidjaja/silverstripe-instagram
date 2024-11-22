@@ -39,7 +39,7 @@ class InstagramMediaObject extends Image
         'InstagramCaptionText' => 'Text', // caption
         'InstagramMediaType' => 'Varchar', // media_type
         'InstagramImageURL' => 'Text', // media_url
-        'InstagramLink' => 'Varchar', // permalink
+        'InstagramLink' => 'Varchar(1000)', // permalink
         'InstagramCreated' => 'Datetime', // timestamp
         'InstagramUserName' => 'Varchar', // username
     );
